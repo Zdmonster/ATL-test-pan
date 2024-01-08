@@ -24,6 +24,16 @@ class Panier:
             self.mt_articles += article.montant
         else:
             print("Ce n'est pas un article")
+
+    def ajouter_article_remise(self, article, remise):
+        if isinstance(article, Article):
+            article.ajouter_remise(remise)
+            self.nb_articles+=1
+            self.articles.append(article)
+            self.mt_articles += article.montant
+        else:
+            print("Ce n'est pas un article")
+
             
     # Retirer article 
     def retirer_article(self, article):

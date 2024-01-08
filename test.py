@@ -25,7 +25,7 @@ class TestMaClassePanier(unittest.TestCase):
         self.assertEqual(self.objet_classe.mt_articles, 25)
 
     def test_retirer_article_inexistant(self):
-        # Tentative de retirer un ami qui n'est pas dans la liste
+        # Tentative de retirer un article qui n'est pas dans la liste
         article_inexistant = Article("Article Inexistant", 40)
         self.objet_classe.retirer_article(article_inexistant)
         self.assertEqual(self.objet_classe.nb_articles, 0)

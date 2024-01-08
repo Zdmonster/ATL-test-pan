@@ -1,0 +1,31 @@
+Gestion des remises:
+
+	En tant que client, 
+	Je veux que ma remise soient appliquées à mon article
+	Afin que mon panier me revient moins cher
+
+	Critères d'acceptation:
+	Mon panier est moins cher avec la remise
+
+Gestion des coupons:
+
+	En tant que client,
+	Je veux que mon coupon soient appliquées à mon panier
+	Afin d'avoir un gain correspondant au coupon en question
+
+	Critères d'acceptation:
+	Mon panier est moins cher si il s'agit d'un coupon de réduction
+	Mon panier possède un article correspondant au coupon (1 article à 0$ pour les produits offerts)
+
+Gestion des stocks:
+	En tant que gestionnaire,
+	J'aimerai avoir avoir une liste contenant le nombre de pièces pour chaque article présents en magasin
+	Afin de pouvoir suivre la consommation des produits
+
+	Critère d'acceptation:
+	Liste correcte
+	Pas de produits négatifs
+
+Gestion des frais de livraisons
+	En tant que gestionnaire,
+	J'aimerai retrouver les frais de livraison pour chaque stock en arrivage
